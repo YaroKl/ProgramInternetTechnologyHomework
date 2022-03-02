@@ -1,0 +1,7 @@
+h1 {color: rgb(0, 0, 255);}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.personal_data {
