@@ -1,5 +1,10 @@
 .flex-container-main {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-container-submain {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
