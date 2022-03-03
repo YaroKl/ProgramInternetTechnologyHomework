@@ -8,6 +8,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.flex-container-Test {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
 .flex-container-1 {
     display: flex;
     flex-direction: row;
@@ -35,5 +40,11 @@
     border: 1px solid black;
 }
 .skill_data {
+    border: 1px solid black;
+}
+.flex-Item-Right {
+    border: 1px solid black;
+}
+.flex-Item-Left {
     border: 1px solid black;
 }
