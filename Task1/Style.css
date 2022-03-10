@@ -6,9 +6,20 @@
 .flex-container-submain {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: stretch;
 }
 .flex-container-Test {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.flex-container-Left {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.flex-container-Right {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
@@ -16,12 +27,21 @@
 .flex-container-1 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 50%;
 }
 .flex-container-2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 50%;
+}
+.flex-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: stretch;
 }
 .flex-item {
@@ -39,12 +59,12 @@
 .student_data {
     border: 1px solid black;
 }
+.Results {
+    border: 1px solid black;
+}
 .skill_data {
     border: 1px solid black;
 }
-.flex-Item-Right {
-    border: 1px solid black;
-}
-.flex-Item-Left {
+.Hobbies_data {
     border: 1px solid black;
 }
