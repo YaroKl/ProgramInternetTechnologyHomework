@@ -1,0 +1,66 @@
+.flex-container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-container-submain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.flex-container-Test {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.flex-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 25%;
+}
+.flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 75%;
+}
+.flex-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.flex-item {
+    padding: 12px;
+    font: 12 12px "Times-New-Roman", sans-serif;
+    color: black;
+    text-align: center;
+    flex-grow: 1;
+  }
+.personal_data {
+    border: 1px solid black;
+    flex-direction: row;
+    align-self: stretch;
+}
+.student_data {
+    border: 1px solid black;
+}
+.Results {
+    border: 1px solid black;
+}
+.skill_data {
+    border: 1px solid black;
+}
+.Hobbies_data {
+    border: 1px solid black;
+}
+.flex-Item-Right {
+    width: 50%;
+}
+.flex-Item-Left {
+    width: 50%;
+}

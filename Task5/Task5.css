@@ -24,11 +24,14 @@ body{
     border-radius: 50%;
 }
 .circle.red{
-    background-color: red;
+    background-color: purple;
 }
 .circle.yellow{
-    background-color: yellow;
+    background-color: blue;
 }
 .circle.green{
     background-color: green;
+}
+.circle.white{
+    background-color: white;
 }
