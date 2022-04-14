@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Фото галерея</title>
+    <link rel="stylesheet" href="Task10.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h2>Фото галерея</h2>
+        <p>Выберите нужную картинку:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="Winter.jpg" alt="Winter" style="width: 100%;" onclick="MyFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Spring.jpg" alt="Spring" style="width: 100%;" onclick="MyFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Summer.jpg" alt="Summer" style="width: 100%;" onclick="MyFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Autumn.jpg" alt="Autumn" style="width: 100%;" onclick="MyFunction(this);">
+        </div>
+    </div>
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <img id="expandedImg" style="width: 100%;">
+        <div id="imgtext"></div>
+    </div>
+</body>
+</html>
