@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task4_Page1.css">
+    <script src="Task4.js"></script>
+</head>
+<body>
+    <li><a href="Task4_Page2.html">Страница 2</a></li>
+    <form class="outer_box">
+        <fieldset class="contact">
+            <legend>Контактная Информация</legend>
+            <p><label for="name">Имя</label><input type="text" id="name"></p>
+            <p><label for="phone">Телефон</label><input type="text" id="phone"></p>
+            <p><label for="email">E-mail</label><input type="email" id="email"></p>
+            <p><label for="date">Дата посещения</label><input type="date" id="date"></p>
+        </fieldset>
+        <fieldset class="pesonal">
+            <legend>Персональная Информация</legend>
+            <p><label for="age">Возраст</label><input type="number" min="1" max="100" step="1" id="age"></p>
+            <p><label for="fav_cuisine">Любимая кухня</label>
+            <select>
+                <option>Русская</option>
+                <option>Японская</option>
+                <option>Французкая</option>
+                <option>Американская</option>
+            </select>
+            </p>
+            <p><label for="selected_dish">Какие блюда Вы хотели бы увидеть в меню?</label><textarea></textarea></p>
+        </fieldset>
+        <fieldset class="rate">
+            <legend>Оценка нашего заведения</legend>
+            <p><label for="evaluation">Почему Вы выбрали наше заведение?</label></p>
+            <p><input type="radio" name="evaluation_choice" value="near">Недалеко от дома/работы</p>
+            <p><input type="radio" name="evaluation_choice" value="advertisement">Увидел рекламу</p>
+            <p><input type="radio" name="evaluation_choice" value="advice">Посоветовали</p>
+            <p><input type="radio" name="evaluation_choice" value="optimal">Оптимальное соотношение цены и качества</p>
+            <p><label for="recommendation">Вы будете рекомендовать наше заведение своим знакомым?</label></p>
+            <p><input type="radio" name="recommendation_choice" value="yes">Да</p>
+            <p><input type="radio" name="recommendation_choice" value="no">Нет</p>
+        </fieldset>
+        <input class="send" type="submit" value="Отправить">
+    </form>
+    <button onclick="changeColor();">Сменить цвет фона</button>
+    <button onclick="changeDarkTheme();">Темная тема</button>
+    <button onclick="changeBrightTheme();">Светлая тема</button>
+</body>
+</html>

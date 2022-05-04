@@ -1,0 +1,21 @@
+body {
+    background: rgb(255, 240, 240);
+    color: rgb(0, 0, 0);
+}
+
+.outer_box {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    align-self: center;
+}
+
+.pesonal {
+    align-self: center;
+}
+
+.rate {
+    align-self: center;
+}

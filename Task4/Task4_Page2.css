@@ -1,0 +1,36 @@
+body {
+    background: rgb(255, 240, 240);
+    color: rgb(0, 0, 0);
+}
+
+.outer_box {
+    position: relative;
+}
+
+.contact {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateX(-25%) translateY(0%);
+}
+
+.pesonal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0%);
+}
+
+.rate {
+    position: absolute;
+    top: 50%;
+    left: 79.1%;
+    transform: translateX(-75%) translateY(0%);
+}
+
+.send {
+    position: absolute;
+    top: 50%;
+    left: 79.1%;
+    transform: translateX(-75%) translateY(0%);
+}

@@ -1,0 +1,13 @@
+.main {
+    align-items: center;
+    flex-direction: column;
+}
+
+.canvas {
+    width: 50%;
+}
+
+.data {
+    align-items: center;
+    flex-direction: row;
+}

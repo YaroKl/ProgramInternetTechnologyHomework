@@ -8,32 +8,24 @@
 <body>
     <div class="main">
         <header>
-            <h1>Заголовок</h1>
+            <nav class="main_navigation">
+                <img src="nature-logo.png" style="width: 5%;">
+                <ul>
+                    <li><a href="#video">Видео</li>
+                    <li><a href="#contact">Контактная информация</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav class="main_navigation">
-            <ul>
-                <li>Домашняя страница</li>
-                <li>Содержание</li>
-                <li>Контактная информация</li>
-            </ul>
-        </nav>
-        <article>
-            <header>
-                <h1>Меню</h1>
-            </header>
-            <div class="intro">
-                <p>Вступление</p>
-            </div>
-            <section class="test_1">
-                <h2>Заголовок секции</h2>
-                <p>Текст секции</p>
-            </section>
-            <p>Текст</p>
-            <video src="Costa_Rica.mp4" width="100%" controls autoplay></video>
-            <audio src="sound_of_forest.mp3" controls autoplay></audio>
+        <article id="video">
+            <audio autoplay controls loop preload="auto">
+                <source  src="sound_of_forest.mp3" type="audio/mp3">
+            </audio>
+            <video width="100%" autoplay controls loop muted preload="auto">
+                <source  src="Costa_Rica.mp4" type="video/mp4">
+            </video>
         </article>
-        <footer>
-            <p>Текст нижнего колонтитула</p>
+        <footer id="contact">
+            <p>© Клевцов Яросвет 2021 год</p>
         </footer>
     </div>
 </body>
